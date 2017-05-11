@@ -1,0 +1,25 @@
+/**app.wxss**/
+.page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.rowcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="container">
+    <text class="title">数字金额转大写</text>
+    <view class="rowcontainer">
+      <text class="leftlabel">数字</text>
+      <input class="input" value="0" focus="true" bindchange="bindChange" />
+    </view>
+    <view class="rowcontainer">
+      <text class="leftlabel">大写</text>
+      <text class="text">{{upperNumber}}</text>
+    </view>
+  </view>
+</view>

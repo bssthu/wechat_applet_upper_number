@@ -1,0 +1,18 @@
+/**index.wxss**/
+.input {
+  width: 70%;
+  border: 1px solid lightgray;
+}
+
+.text {
+  width: 70%;
+}
+
+.leftlabel {
+  margin-left: 20rpm;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20rpx;
+}
